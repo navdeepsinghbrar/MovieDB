@@ -52,7 +52,7 @@ public class Authentication extends AppCompatActivity {
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if(firebaseAuth.getCurrentUser() != null){
 
-                    startActivity(new Intent(Authentication.this, MainActivity.class));
+                    startActivity(new Intent(Authentication.this, Api.class));
 
                 }
             }

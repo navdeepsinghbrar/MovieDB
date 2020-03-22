@@ -5,6 +5,7 @@
     <string name="confirmPasswordHint">Confirm Password</string>
     <string name="signupButton">Signup</string>
     <string name="signout">Sign out</string>
+    <string name="enter">Enter</string>
     <string name="loginButton">Login</string>
     <string name="notRegisteredSignup">Not registered yet? Signup</string>
     <string name="alreadyRegisteredLogin">Already have an account? Login</string>

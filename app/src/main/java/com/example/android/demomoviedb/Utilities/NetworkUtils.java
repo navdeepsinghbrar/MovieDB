@@ -9,6 +9,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
 
+import static com.example.android.demomoviedb.Api.API_KEY;
+
 public class NetworkUtils {
 
     private final static String MOVIEDB_POPULAR_MOVIES_BASE_URL = "https://api.themoviedb.org/3/movie/popular";
@@ -23,7 +25,7 @@ public class NetworkUtils {
     Once you submit your request, you should receive your key via email shortly after.*/
 
     //Provide your API_KEY here
-    private static String API_KEY = "332d55cbd05ac74a9c186280aa5c26d7";
+    //private static String API_KEY = "";
 
 
     private final static String PARAM_LANGUAGE = "language";
