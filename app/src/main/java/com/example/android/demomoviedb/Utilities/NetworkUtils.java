@@ -24,9 +24,6 @@ public class NetworkUtils {
     You will also need to provide some personal information to complete the request.
     Once you submit your request, you should receive your key via email shortly after.*/
 
-    //Provide your API_KEY here
-    //private static String API_KEY = "";
-
 
     private final static String PARAM_LANGUAGE = "language";
     private final static String PARAM_PAGE = "page";
