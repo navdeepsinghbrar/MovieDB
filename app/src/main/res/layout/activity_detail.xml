@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/detail_activity_parent_padding"
+            tools:context=".DetailActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewMovieThumbnail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/movie_image_content_description"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/margin_left_between_imageview_textview"
+                    android:layout_marginLeft="@dimen/margin_left_between_imageview_textview"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/LabelText"
+                            android:text="@string/title" />
+
+                        <TextView
+                            android:id="@+id/textViewMovieTitle"
+                            style="@style/DefinitionText" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_top_between_textviews"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/LabelText"
+                            android:text="@string/rating" />
+
+                        <TextView
+                            android:id="@+id/textViewMovieRating"
+                            style="@style/DefinitionText" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_top_between_textviews"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/LabelText"
+                            android:text="@string/release_date" />
+
+                        <TextView
+                            android:id="@+id/textViewMovieReleaseDate"
+                            style="@style/DefinitionText" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_between_imageview_textview"
+                android:text="@string/overview"
+                android:textSize="@dimen/movie_title_textsize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewMovieOverview"
+                style="@style/NormalText"
+                android:layout_marginTop="@dimen/margin_top_between_textviews" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

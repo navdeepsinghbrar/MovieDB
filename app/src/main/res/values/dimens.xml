@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editTextCornerRadius">5dp</dimen>
+    <dimen name="editTextMarginTop">20dp</dimen>
+    <dimen name="buttonMarginTop">30dp</dimen>
+    <dimen name="buttonWidth">100dp</dimen>
+    <dimen name="buttonHeight">40dp</dimen>
+    <dimen name="loginTextViewSize">14sp</dimen>
+    <dimen name="textViewMarginTop">20dp</dimen>
+    <dimen name="margin_top_between_textviews">10dp</dimen>
+    <dimen name="margin_left_between_imageview_textview">16dp</dimen>
+    <dimen name="margin_top_between_imageview_textview">20dp</dimen>
+    <dimen name="detail_activity_textsize">16sp</dimen>
+    <dimen name="detail_activity_parent_padding">24dp</dimen>
+    <dimen name="textview_margin">8dp</dimen>
+    <dimen name="movie_title_textsize">18sp</dimen>
+    <dimen name="listItemViewWidth">1dp</dimen>
+</resources>
